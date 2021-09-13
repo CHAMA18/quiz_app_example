@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:595828015373:android:99ee582212f1a3e228f044",
+        "mobilesdk_app_id": "1:595828015373:android:cef1bb9629dde1b228f044",
         "android_client_info": {
-          "package_name": "com.flutterflow.nyumba24"
+          "package_name": "nyumba.ai"
         }
       },
       "oauth_client": [
@@ -32,10 +32,10 @@
               "client_type": 3
             },
             {
-              "client_id": "595828015373-po87jr2o9urjuonvb0efiueci2lh7k67.apps.googleusercontent.com",
+              "client_id": "595828015373-i4831f250q1ci0gevlu2jg6ucknbkslp.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.flutterflow.nyumba"
+                "bundle_id": "com.flutterflow.nyumba24"
               }
             }
           ]

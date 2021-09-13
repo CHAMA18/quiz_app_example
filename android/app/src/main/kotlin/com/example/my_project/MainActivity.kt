@@ -1,4 +1,4 @@
-package com.flutterflow.nyumba24
+package nyumba.ai
 
 import io.flutter.embedding.android.FlutterActivity
 import io.flutter.embedding.android.FlutterFragmentActivity
