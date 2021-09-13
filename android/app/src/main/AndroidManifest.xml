@@ -1,8 +1,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.quiz_app_example">
+    package="com.flutterflow.nyumba24"
+    xmlns:tools="http://schemas.android.com/tools">
+   <uses-permission android:name="android.permission.INTERNET"/>
+
    <application
-        android:label="quiz_app_example"
-        android:icon="@mipmap/ic_launcher">
+        android:label="nyumba"
+        tools:replace="android:label"
+        android:icon="@mipmap/ic_launcher"
+        android:requestLegacyExternalStorage="true">
+
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
@@ -32,10 +38,16 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+
         <!-- Don't delete the meta-data below.
              This is used by the Flutter tool to generate GeneratedPluginRegistrant.java -->
         <meta-data
             android:name="flutterEmbedding"
             android:value="2" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-4731326583797023~9903782006"/>
+
     </application>
 </manifest>

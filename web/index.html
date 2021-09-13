@@ -20,13 +20,13 @@
   <!-- iOS meta tags & icons -->
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="quiz_app_example">
+  <meta name="apple-mobile-web-app-title" content="nyumba">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="favicon.png"/>
 
-  <title>quiz_app_example</title>
+  <title>nyumba</title>
   <link rel="manifest" href="manifest.json">
 </head>
 <body>
@@ -40,6 +40,24 @@
       });
     }
   </script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  
+
+  <script>
+    const firebaseConfig = {
+    apiKey: "AIzaSyBKv3m0oQsePIiktxFeCFQfHSZXqWCdJTw",
+    authDomain: "nyumba-f6928.firebaseapp.com",
+    projectId: "nyumba-f6928",
+    storageBucket: "nyumba-f6928.appspot.com",
+    messagingSenderId: "595828015373",
+    appId: "1:595828015373:web:ced08cf2c0edec6628f044",
+    measurementId: "G-0TKWCMV9X6"
+  }
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  
   <script src="main.dart.js" type="application/javascript"></script>
 </body>
 </html>
